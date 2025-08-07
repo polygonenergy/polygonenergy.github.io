@@ -7,8 +7,8 @@ const Process = () => {
       </div>
       <div className="rounded-lg overflow-hidden border">
         <img
-          src="/lovable-uploads/41df9d1d-27d6-4774-9916-58f72db2a35a.png"
-          alt="Diagram showing new way (batteries charged via RF-DC directly) versus old way (external phone dongle)"
+          src="/lovable-uploads/1f19c4ec-ffb0-415f-83fe-d54756baa31a.png"
+          alt="Illustration of NEW WAY: RF link directly to batteries vs OLD WAY: external phone dongle"
           loading="lazy"
           className="w-full h-auto"
         />

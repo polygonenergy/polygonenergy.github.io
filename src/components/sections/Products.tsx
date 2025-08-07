@@ -14,8 +14,8 @@ const Products = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <img
-              src="/lovable-uploads/88e8e2f7-b49a-40b6-abfe-934d555a91b4.png"
-              alt="Polygon Energy battery product montage"
+              src="/lovable-uploads/46635dd6-8d6e-4c4c-a33f-417ea88da683.png"
+              alt="Polygon Energy RF-DC battery prototype with clip-on circuit"
               loading="lazy"
               className="rounded-md border"
             />
@@ -33,8 +33,8 @@ const Products = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <img
-              src="/lovable-uploads/55b5c8b1-581c-4b6a-93cc-a333cb645856.png"
-              alt="Polygon Energy Micro Charger overview"
+              src="/lovable-uploads/fc686d1e-f6bd-4607-9706-ca4c859d738b.png"
+              alt="Polygon Micro Charger product slide"
               loading="lazy"
               className="rounded-md border"
             />

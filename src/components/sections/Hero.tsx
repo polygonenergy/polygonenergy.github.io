@@ -19,10 +19,10 @@ const Hero = () => {
         </div>
         <div className="flex justify-center">
           <img
-            src="/images/polygon-favicon.png"
-            alt="Polygon Energy logo icon"
-            width={320}
-            height={320}
+            src="/lovable-uploads/5015154e-5d8d-4cc7-b951-72ac4a81d871.png"
+            alt="Polygon Energy logo banner on black background"
+            width={560}
+            height={315}
             loading="eager"
             className="rounded-lg shadow-xl"
           />
