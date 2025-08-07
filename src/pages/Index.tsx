@@ -1,13 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/sections/Hero";
+import Products from "@/components/sections/Products";
+import Process from "@/components/sections/Process";
+import Preorder from "@/components/sections/Preorder";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main>
+      <Hero />
+      <Products />
+      <Process />
+      <Preorder />
+      <footer className="container mx-auto py-10 text-sm text-muted-foreground">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-3">
+          <p>© {new Date().getFullYear()} Polygon Energy</p>
+          <nav className="flex gap-4">
+            <a href="#products" className="hover:underline">Products</a>
+            <a href="#process" className="hover:underline">Process</a>
+            <a href="#preorder" className="hover:underline">Preorder</a>
+          </nav>
+        </div>
+      </footer>
+    </main>
   );
 };
 
