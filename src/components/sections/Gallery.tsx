@@ -24,6 +24,18 @@ const Gallery = () => {
       src: "/lovable-uploads/fc686d1e-f6bd-4607-9706-ca4c859d738b.png",
       alt: "Duplex Micro Charger digital version slide",
     },
+    {
+      src: "/lovable-uploads/148151f8-a66c-4bed-a5d5-91ab08288b31.png",
+      alt: "Simplex Micro Charger packaging boxes and product presentation",
+    },
+    {
+      src: "/lovable-uploads/0bc55db5-44be-4d58-afea-dd70b05174f6.png",
+      alt: "Simplex Micro Charger high fidelity pre-final prototype with Samsung phone demonstration",
+    },
+    {
+      src: "/lovable-uploads/e7e88db7-2849-4941-96a2-3bb7f61217dd.png",
+      alt: "Simplex Micro Charger receiver dongle circuit board specifications and technical details",
+    },
   ];
 
   return (
