@@ -16,17 +16,23 @@ const Index = () => {
       <Applications />
       <Preorder />
       <Gallery />
-      <footer className="container mx-auto py-10 text-sm text-muted-foreground">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} Polygon Energy</p>
-          <nav className="flex gap-4">
-            <a href="#products" className="hover:underline">Products</a>
-            <a href="#process" className="hover:underline">Process</a>
-            <a href="#value" className="hover:underline">Value</a>
-            <a href="#applications" className="hover:underline">Applications</a>
-            <a href="#preorder" className="hover:underline">Preorder</a>
-            <a href="#gallery" className="hover:underline">Gallery</a>
-          </nav>
+      <footer className="section-seamless py-16 border-t border-border/20">
+        <div className="container-professional">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="text-center md:text-left">
+              <p className="text-sm text-muted-foreground">
+                © {new Date().getFullYear()} Polygon Energy — Wireless is the future
+              </p>
+            </div>
+            <nav className="flex flex-wrap justify-center gap-6">
+              <a href="#products" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Products</a>
+              <a href="#process" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Process</a>
+              <a href="#value" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Value</a>
+              <a href="#applications" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Applications</a>
+              <a href="#preorder" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Preorder</a>
+              <a href="#gallery" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Gallery</a>
+            </nav>
+          </div>
         </div>
       </footer>
     </main>

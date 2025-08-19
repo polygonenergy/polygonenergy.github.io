@@ -27,13 +27,17 @@ const Preorder = () => {
   }
 
   return (
-    <section id="preorder" className="container mx-auto py-12 md:py-16">
-      <div className="mb-8">
-        <h2 className="text-3xl font-semibold">Join the Preorder List</h2>
-        <p className="text-muted-foreground mt-2">No payment required. We'll contact you when units are ready.</p>
-      </div>
+    <section id="preorder" className="section-seamless section-padding">
+      <div className="container-professional">
+        <div className="text-center space-y-6 mb-16">
+          <h2 className="animate-fade-in">Join the Preorder List</h2>
+          <p className="text-professional text-lg lg:text-xl max-w-2xl mx-auto animate-fade-in [animation-delay:200ms]">
+            No payment required. We'll contact you when units are ready.
+          </p>
+        </div>
 
-      <form onSubmit={onSubmit} className="grid gap-6 md:grid-cols-2">
+        <form onSubmit={onSubmit} className="max-w-4xl mx-auto card-professional animate-fade-in [animation-delay:400ms]">
+          <div className="grid gap-8 md:grid-cols-2">
         <div className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="name">Full name</Label>
@@ -67,8 +71,10 @@ const Preorder = () => {
             <Textarea id="notes" name="notes" placeholder="Tell us about your device or use case" className="min-h-[180px]" />
           </div>
           <Button type="submit" size="lg" className="w-full">Request Preorder</Button>
-        </div>
-      </form>
+          </div>
+          </div>
+        </form>
+      </div>
     </section>
   );
 };

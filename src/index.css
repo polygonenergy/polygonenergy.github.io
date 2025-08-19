@@ -2,95 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Professional Polygon Energy Design System
+Based on logo colors: dark background, professional blues, elegant greys
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Professional dark theme */
+    --background: 220 15% 8%;
+    --foreground: 210 20% 85%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Cards with subtle transparency */
+    --card: 220 15% 10%;
+    --card-foreground: 210 20% 90%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Elegant popover styling */
+    --popover: 220 18% 12%;
+    --popover-foreground: 210 20% 90%;
 
-    --primary: 222.2 47.4% 11.2%;
+    /* Professional blue primary (from logo button) */
+    --primary: 220 70% 50%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Sophisticated secondary with transparency */
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 15% 75%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted elements for professional hierarchy */
+    --muted: 220 12% 18%;
+    --muted-foreground: 215 12% 60%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent with subtle blue tint */
+    --accent: 220 20% 20%;
+    --accent-foreground: 210 20% 85%;
 
-    --destructive: 0 84.2% 60.2%;
+    /* Error states */
+    --destructive: 0 70% 55%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders and inputs with subtle definition */
+    --border: 220 15% 25%;
+    --input: 220 15% 20%;
+    --ring: 220 70% 60%;
 
-    --radius: 0.5rem;
+    /* Sophisticated border radius */
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Professional gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 70% 50%) 0%, hsl(220 60% 40%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(220 15% 15%) 0%, hsl(220 12% 12%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(220 15% 8%) 0%, hsl(220 18% 12%) 100%);
+    
+    /* Elegant shadows */
+    --shadow-elegant: 0 20px 40px -12px hsl(220 70% 20% / 0.4);
+    --shadow-subtle: 0 4px 20px -4px hsl(220 15% 5% / 0.3);
+    --shadow-glow: 0 0 60px hsl(220 70% 50% / 0.2);
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Professional transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Sidebar styling */
+    --sidebar-background: 220 15% 10%;
+    --sidebar-foreground: 210 20% 85%;
+    --sidebar-primary: 220 70% 50%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 220 15% 15%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 220 15% 25%;
+    --sidebar-ring: 220 70% 60%;
   }
 }
 
@@ -100,6 +80,106 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Professional typography hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+    color: hsl(var(--foreground));
+  }
+
+  h1 {
+    @apply text-4xl md:text-6xl lg:text-7xl leading-tight;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  /* Seamless section styling */
+  section {
+    @apply relative;
+    transition: var(--transition-smooth);
+  }
+
+  /* Professional button enhancements */
+  .btn-primary {
+    background: var(--gradient-primary);
+    box-shadow: var(--shadow-elegant);
+    transition: var(--transition-smooth);
+    backdrop-filter: blur(10px);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Glass morphism effects */
+  .glass {
+    background: hsl(var(--card) / 0.8);
+    backdrop-filter: blur(20px);
+    border: 1px solid hsl(var(--border) / 0.2);
+    box-shadow: var(--shadow-subtle);
+  }
+
+  /* Elegant image styling */
+  img {
+    @apply rounded-lg;
+    transition: var(--transition-smooth);
+  }
+
+  /* Professional spacing and flow */
+  .section-padding {
+    @apply py-20 md:py-32;
+  }
+
+  .container-professional {
+    @apply container mx-auto px-6 md:px-8 lg:px-12;
+  }
+}
+
+@layer components {
+  /* Professional hero gradient */
+  .hero-bg {
+    background: var(--gradient-hero);
+    position: relative;
+  }
+
+  .hero-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 0%, hsl(220 70% 50% / 0.1) 0%, transparent 50%);
+  }
+
+  /* Seamless section transitions */
+  .section-seamless {
+    border: none;
+    margin: 0;
+    background: transparent;
+  }
+
+  /* Professional card styling */
+  .card-professional {
+    @apply glass rounded-2xl p-8 hover:transform hover:scale-105;
+    transition: var(--transition-smooth);
+  }
+
+  /* Typography improvements */
+  .text-professional {
+    @apply leading-relaxed;
+    color: hsl(var(--muted-foreground));
+  }
+
+  /* Professional grid layouts */
+  .grid-professional {
+    @apply grid gap-8 md:gap-12;
   }
 }

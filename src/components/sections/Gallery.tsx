@@ -27,21 +27,37 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="container mx-auto py-12 md:py-16">
-      <div className="mb-6">
-        <h2 className="text-3xl font-semibold">Gallery</h2>
-        <p className="text-muted-foreground mt-2">A snapshot of our journey from Micro Charger to RF-DC batteries.</p>
-      </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {images.map((img) => (
-          <img
-            key={img.src}
-            src={img.src}
-            alt={img.alt}
-            loading="lazy"
-            className="rounded-md border w-full h-auto"
-          />
-        ))}
+    <section id="gallery" className="section-seamless section-padding">
+      <div className="container-professional">
+        <div className="text-center space-y-6 mb-16">
+          <h2 className="animate-fade-in">
+            Gallery
+          </h2>
+          <p className="text-professional text-lg lg:text-xl max-w-2xl mx-auto animate-fade-in [animation-delay:200ms]">
+            A snapshot of our journey from Micro Charger to RF-DC batteries.
+          </p>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {images.map((img, index) => (
+            <div 
+              key={img.src} 
+              className="group animate-fade-in hover:transform hover:scale-105 transition-all duration-500"
+              style={{ animationDelay: `${400 + index * 100}ms` }}
+            >
+              <div className="relative">
+                <div className="absolute inset-0 bg-primary/10 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                <div className="glass rounded-2xl overflow-hidden">
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    loading="lazy"
+                    className="w-full h-auto group-hover:scale-110 transition-transform duration-700"
+                  />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
