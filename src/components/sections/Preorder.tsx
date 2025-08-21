@@ -71,7 +71,7 @@ const Preorder = () => {
             <Textarea id="notes" name="notes" placeholder="Tell us about your device or use case" className="min-h-[180px]" />
           </div>
           <Button type="submit" size="lg" className="w-full">Request Preorder</Button>
-          </div>
+        </div>
           </div>
         </form>
       </div>
