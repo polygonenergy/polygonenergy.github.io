@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -31,14 +32,11 @@ const Hero = () => {
                   See Process
                 </Button>
               </a>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="w-full sm:w-auto min-w-[160px]"
-                onClick={() => window.open('https://lungelo1.typeform.com/report/AYeION/VssGK9eMldImEgc5', '_blank')}
-              >
-                Market Research
-              </Button>
+              <Link to="/work">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto min-w-[160px]">
+                  Market Research
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="flex justify-center lg:justify-end animate-fade-in [animation-delay:800ms]">
