@@ -11,7 +11,7 @@ const Hero = () => {
               <p className="text-sm uppercase tracking-[0.2em] text-primary font-medium animate-fade-in">
                 Wireless is the future
               </p>
-              <h1 className="animate-fade-in [animation-delay:200ms]">
+              <h1 className="animate-fade-in [animation-delay:200ms] mb-4">
                 Polygon Energy
               </h1>
               <p className="text-3xl md:text-4xl lg:text-5xl text-muted-foreground font-normal mt-2 leading-relaxed pb-3">
