@@ -13,10 +13,10 @@ const Hero = () => {
               </p>
               <h1 className="animate-fade-in [animation-delay:200ms]">
                 Polygon Energy
-                <span className="block text-3xl md:text-4xl lg:text-5xl text-muted-foreground font-normal mt-2 mb-4 leading-relaxed pb-3">
-                  RF-DC Batteries & Micro Charger
-                </span>
               </h1>
+              <p className="text-3xl md:text-4xl lg:text-5xl text-muted-foreground font-normal mt-2 leading-relaxed pb-3">
+                RF-DC Batteries & Micro Charger
+              </p>
               <p className="text-lg lg:text-xl text-professional leading-relaxed animate-fade-in [animation-delay:400ms] max-w-xl">
                 We build self-charging batteries using RF-DC conversion inside the cell, and a Micro Charger for smartphones. Wireless power, now inside your batteries.
               </p>
