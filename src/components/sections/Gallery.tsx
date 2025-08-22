@@ -36,6 +36,30 @@ const Gallery = () => {
       src: "/lovable-uploads/e7e88db7-2849-4941-96a2-3bb7f61217dd.png",
       alt: "Simplex Micro Charger receiver dongle circuit board specifications and technical details",
     },
+    {
+      src: "/lovable-uploads/7fe2976e-5747-4b46-b905-79d5bf1a3fc3.png",
+      alt: "Simplex Micro Charger technical diagrams and stacked disk assembly configurations",
+    },
+    {
+      src: "/lovable-uploads/0c90d1ad-f71f-4bf9-b3d4-480772007e1f.png",
+      alt: "RF-DC circuit board designs Figure 1.2, 1.3 and OEM Disc mockup specifications",
+    },
+    {
+      src: "/lovable-uploads/7898ebb0-1165-40fc-ac75-f91d55eb6297.png",
+      alt: "OEM Energy superimposition using stacked array and polygonally shaped indoor transmitter",
+    },
+    {
+      src: "/lovable-uploads/e2dc29d8-f6f9-4bf8-be93-0830da6663c8.png",
+      alt: "Micro Charger technical product specifications with antenna pattern and power output details",
+    },
+    {
+      src: "/lovable-uploads/93d6266f-985e-4a05-9a88-11191d0aa088.png",
+      alt: "Antenna simulation results for 2.4GHz-5.8GHz frequency with S-Parameters and radiation patterns",
+    },
+    {
+      src: "/lovable-uploads/2116af28-5f6d-4974-9a5c-4c4414088d7d.png",
+      alt: "Proprietary antenna array design with rectenna combination technology specifications",
+    },
   ];
 
   return (
