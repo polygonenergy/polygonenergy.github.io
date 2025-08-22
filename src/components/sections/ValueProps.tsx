@@ -6,7 +6,8 @@ const ValueProps = () => {
     "Cost savings over time vs. buying many replacement batteries",
     "Wireless recharging or self-replenishing charging",
     "Smart availability of battery power when you need it most",
-    "Software-managed battery performance optimization"
+    "Software-managed battery performance optimization",
+    "Enhanced device portability with continuous power availability"
   ];
 
   return (
