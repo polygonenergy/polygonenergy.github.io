@@ -14,7 +14,7 @@ const Hero = () => {
               <h1 className="animate-fade-in [animation-delay:200ms] mb-4">
                 Polygon Energy
               </h1>
-              <p className="text-3xl md:text-4xl lg:text-5xl text-muted-foreground font-normal mt-2 leading-relaxed pb-3">
+              <p className="text-3xl md:text-4xl lg:text-5xl text-foreground font-normal mt-2 leading-relaxed pb-3">
                 RF-DC Batteries & Micro Charger
               </p>
               <p className="text-lg lg:text-xl text-professional leading-relaxed animate-fade-in [animation-delay:400ms] max-w-xl">
