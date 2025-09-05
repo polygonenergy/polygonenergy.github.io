@@ -9,68 +9,68 @@ const Gallery = () => {
   const [images, setImages] = useState([
     {
       id: "1",
-      src: "/lovable-uploads/30d2332c-b185-4566-80ab-ed912a79ac41.png",
-      alt: "B2C and B2B Product overview showing Polygon Energy battery technology and applications",
-    },
-    {
-      id: "2",
-      src: "/lovable-uploads/c9c1d958-6dde-40c8-81b4-5737ba62b0e3.png",
-      alt: "Product Design Inspiration from Dunge sound mirrors - acoustic mirrors that inspired the Micro Charger shape",
-    },
-    {
-      id: "3",
-      src: "/lovable-uploads/cd094231-709f-48ba-8650-18cbfd927985.png",
-      alt: "Simplex Micro Charger RF Transmitter technical specifications and features",
-    },
-    {
-      id: "4",
-      src: "/lovable-uploads/f8b6416f-9760-439b-8ee7-740e011c1143.png",
-      alt: "Hand holding the Polygon Energy Micro Charger device demonstrating its compact size",
-    },
-    {
-      id: "5",
       src: "/lovable-uploads/2fa91cff-5404-4547-abb5-53cee28493f0.png",
       alt: "Preliminary look of Polygon Energy battery branding",
     },
     {
-      id: "6",
+      id: "2",
       src: "/lovable-uploads/46635dd6-8d6e-4c4c-a33f-417ea88da683.png",
       alt: "Battery prototype with clip-on RF-DC circuit",
     },
     {
-      id: "7",
-      src: "/lovable-uploads/9b7ca7fb-6ea7-494b-a056-fe706b47cf9a.png",
-      alt: "RF-DC IC U2.0 specifications board imagery",
+      id: "3",
+      src: "/lovable-uploads/30d2332c-b185-4566-80ab-ed912a79ac41.png",
+      alt: "B2C and B2B Product overview showing Polygon Energy battery technology and applications",
     },
     {
-      id: "8",
-      src: "/lovable-uploads/6758c2f3-776d-4656-9b2b-da1788070162.png",
-      alt: "RF-DC IC U1.0 specifications board imagery",
+      id: "4",
+      src: "/lovable-uploads/c9c1d958-6dde-40c8-81b4-5737ba62b0e3.png",
+      alt: "Product Design Inspiration from Dunge sound mirrors - acoustic mirrors that inspired the Micro Charger shape",
     },
     {
-      id: "9",
+      id: "5",
+      src: "/lovable-uploads/cd094231-709f-48ba-8650-18cbfd927985.png",
+      alt: "Simplex Micro Charger RF Transmitter technical specifications and features",
+    },
+    {
+      id: "6",
       src: "/lovable-uploads/5ef993df-52b5-4e87-a8af-7cf872fd1dc6.png",
       alt: "Simplex Micro Charger LED version slide",
     },
     {
-      id: "10",
-      src: "/lovable-uploads/fc686d1e-f6bd-4607-9706-ca4c859d738b.png",
-      alt: "Duplex Micro Charger digital version slide",
+      id: "7",
+      src: "/lovable-uploads/e7e88db7-2849-4941-96a2-3bb7f61217dd.png",
+      alt: "Simplex Micro Charger receiver dongle circuit board specifications and technical details",
     },
     {
-      id: "11",
-      src: "/lovable-uploads/148151f8-a66c-4bed-a5d5-91ab08288b31.png",
-      alt: "Simplex Micro Charger packaging boxes and product presentation",
+      id: "8",
+      src: "/lovable-uploads/f8b6416f-9760-439b-8ee7-740e011c1143.png",
+      alt: "Hand holding the Polygon Energy Micro Charger device demonstrating its compact size",
     },
     {
-      id: "12",
+      id: "9",
       src: "/lovable-uploads/0bc55db5-44be-4d58-afea-dd70b05174f6.png",
       alt: "Simplex Micro Charger high fidelity pre-final prototype with Samsung phone demonstration",
     },
     {
+      id: "10",
+      src: "/lovable-uploads/148151f8-a66c-4bed-a5d5-91ab08288b31.png",
+      alt: "Simplex Micro Charger packaging boxes and product presentation",
+    },
+    {
+      id: "11",
+      src: "/lovable-uploads/fc686d1e-f6bd-4607-9706-ca4c859d738b.png",
+      alt: "Duplex Micro Charger digital version slide",
+    },
+    {
+      id: "12",
+      src: "/lovable-uploads/9b7ca7fb-6ea7-494b-a056-fe706b47cf9a.png",
+      alt: "RF-DC IC U2.0 specifications board imagery",
+    },
+    {
       id: "13",
-      src: "/lovable-uploads/e7e88db7-2849-4941-96a2-3bb7f61217dd.png",
-      alt: "Simplex Micro Charger receiver dongle circuit board specifications and technical details",
+      src: "/lovable-uploads/93d6266f-985e-4a05-9a88-11191d0aa088.png",
+      alt: "Antenna simulation results for 2.4GHz-5.8GHz frequency with S-Parameters and radiation patterns",
     },
     {
       id: "14",
@@ -84,8 +84,8 @@ const Gallery = () => {
     },
     {
       id: "16",
-      src: "/lovable-uploads/7898ebb0-1165-40fc-ac75-f91d55eb6297.png",
-      alt: "OEM Energy superimposition using stacked array and polygonally shaped indoor transmitter",
+      src: "/lovable-uploads/6758c2f3-776d-4656-9b2b-da1788070162.png",
+      alt: "RF-DC IC U1.0 specifications board imagery",
     },
     {
       id: "17",
@@ -94,13 +94,13 @@ const Gallery = () => {
     },
     {
       id: "18",
-      src: "/lovable-uploads/93d6266f-985e-4a05-9a88-11191d0aa088.png",
-      alt: "Antenna simulation results for 2.4GHz-5.8GHz frequency with S-Parameters and radiation patterns",
+      src: "/lovable-uploads/2116af28-5f6d-4974-9a5c-4c4414088d7d.png",
+      alt: "Proprietary antenna array design with rectenna combination technology specifications",
     },
     {
       id: "19",
-      src: "/lovable-uploads/2116af28-5f6d-4974-9a5c-4c4414088d7d.png",
-      alt: "Proprietary antenna array design with rectenna combination technology specifications",
+      src: "/lovable-uploads/7898ebb0-1165-40fc-ac75-f91d55eb6297.png",
+      alt: "OEM Energy superimposition using stacked array and polygonally shaped indoor transmitter",
     },
   ]);
 
