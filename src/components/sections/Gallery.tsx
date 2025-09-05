@@ -1,6 +1,22 @@
 const Gallery = () => {
   const images = [
     {
+      src: "/lovable-uploads/30d2332c-b185-4566-80ab-ed912a79ac41.png",
+      alt: "B2C and B2B Product overview showing Polygon Energy battery technology and applications",
+    },
+    {
+      src: "/lovable-uploads/c9c1d958-6dde-40c8-81b4-5737ba62b0e3.png",
+      alt: "Product Design Inspiration from Dunge sound mirrors - acoustic mirrors that inspired the Micro Charger shape",
+    },
+    {
+      src: "/lovable-uploads/cd094231-709f-48ba-8650-18cbfd927985.png",
+      alt: "Simplex Micro Charger RF Transmitter technical specifications and features",
+    },
+    {
+      src: "/lovable-uploads/f8b6416f-9760-439b-8ee7-740e011c1143.png",
+      alt: "Hand holding the Polygon Energy Micro Charger device demonstrating its compact size",
+    },
+    {
       src: "/lovable-uploads/2fa91cff-5404-4547-abb5-53cee28493f0.png",
       alt: "Preliminary look of Polygon Energy battery branding",
     },
