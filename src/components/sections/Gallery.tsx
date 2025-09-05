@@ -124,12 +124,6 @@ const Gallery = () => {
     });
   };
 
-  // Auto-save the current order on component mount
-  useEffect(() => {
-    if (isReorderMode) {
-      saveOrder();
-    }
-  }, []);
 
   const toggleReorderMode = () => {
     setIsReorderMode(!isReorderMode);
