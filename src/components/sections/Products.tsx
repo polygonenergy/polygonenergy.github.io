@@ -2,8 +2,8 @@ const Products = () => {
   const products = [
     {
       title: "RF-DC Self-Charging Batteries",
-      image: "/lovable-uploads/46635dd6-8d6e-4c4c-a33f-417ea88da683.png",
-      alt: "Polygon Energy RF-DC battery prototype with clip-on circuit",
+      image: "/lovable-uploads/5ef993df-52b5-4e87-a8af-7cf872fd1dc6.png",
+      alt: "Simplex Micro Charger LED version slide",
       features: [
         "RF-DC conversion inside the battery extends usable mAh and runtime",
         "Battery management firmware learns usage patterns for smart energy availability", 
