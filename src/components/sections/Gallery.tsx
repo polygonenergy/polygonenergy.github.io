@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import { Button } from "@/components/ui/button";
 import { GripVertical, Save, Edit3 } from "lucide-react";
@@ -123,6 +123,13 @@ const Gallery = () => {
       description: "The image sequence has been locked in.",
     });
   };
+
+  // Auto-save the current order on component mount
+  useEffect(() => {
+    if (isReorderMode) {
+      saveOrder();
+    }
+  }, []);
 
   const toggleReorderMode = () => {
     setIsReorderMode(!isReorderMode);
